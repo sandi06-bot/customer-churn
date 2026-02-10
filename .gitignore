@@ -1,0 +1,21 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+# Node
+node_modules/
+build/
+# macOS
+.DS_Store
+# Logs and temp
+/tmp/
+*.log
+# Model artifacts - keep out of git, use LFS or external storage
+backend/models/
+# Editor
+.vscode/
+.idea/

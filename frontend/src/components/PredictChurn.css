@@ -1,0 +1,47 @@
+.predict-container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.section-subtitle {
+  color: #B0B8C4;
+  margin-bottom: 2rem;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.form-section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4A90E2;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-section-title:first-child {
+  margin-top: 0;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.prediction-result {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .form-actions {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
